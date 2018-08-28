@@ -1,0 +1,56 @@
+/*NAVBAR*/
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+/*BARRA DE PESQUISA ANIMADA*/
+.pesq{
+	position: absolute;
+	left: 78%;
+}
+.input{
+	position: absolute;
+	top: -15px;
+	right: -155px;
+	box-sizing: border-box;
+	width: 0px;
+	outline: none;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 3px solid #000;
+	transition: all 0.7s ease;
+}
+.input.ativo {
+  width: 350px;
+}
+::-webkit-input-placeholder{color:#000; font-family: sans-serif;}/*chrome*/
+:-moz-placeholder{color:#000; font-family: sans-serif;} /*Firefox 4 até 18*/
+::-moz-placeholder{color:#000; font-family: sans-serif;}/*Firefox 19*/
+:-ms-input-placeholder{color:#000; font-family: sans-serif;}/*EI 10+*/
+.btn {
+	position: absolute;
+	background: #000;
+	left: 135px;
+	top: -17px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	transition: all 0.7s ease;
+}
+.btn.anima {
+  background: #fff;
+  color:#000;
+  border: solid 1px #000;
+
+}
+#login{
+	color: #000;
+	padding: 10px;}
+#bolsa{
+	color: #000;
+	padding: 10px;}
+@media only screen and (max-width: 767px){
+
+}	
