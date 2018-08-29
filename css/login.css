@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+body{background:url(fundo-login.jpg);}
+#logo{
+  margin-left: 30%;
+}
+.text{font-family: 'Bree Serif', serif;}
+#form{
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  font-size: 18px;
+  border: 1px solid #000;
+}
+
+::-webkit-input-placeholder{/*chrome*/
+  color:#000;
+  padding: 10px;
+
+}
+ :-moz-placeholder{/*Firefox 4 até 18*/
+  color:#000;
+}
+ ::-moz-placeholder{
+  color:#000;
+  padding: 10px;
+}
+ :-ms-input-placeholder{/*Firefox 19*/
+  color:#000;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.main-div {
+  background: #fff;
+  border-radius: 5px;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+#botao, #botao2 {
+  background: #fff;
+  border-color: #000;
+  border-radius: 0;
+  color: #000;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+
+#botao:hover, #botao2:hover{
+  background: #000;
+  color: #fff;
+  -webkit-transition: all .6s ease-out;
+  -moz-transition: all .6s ease-out;
+  -o-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+.forgot {
+  text-align: left; 
+  font-family: 'Bree Serif', serif; 
+  margin-bottom:30px;
+}
+
+
